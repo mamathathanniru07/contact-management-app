@@ -1,0 +1,130 @@
+.customers-page {
+  /* background-color: rgba(219, 239, 233, 0.97); */
+  /* width: 100%; */
+  height: 100%;
+  padding-top: 5%;
+}
+
+.customers-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+
+.add-customer-button {
+  margin-bottom: 2%;
+  align-self: center;
+  justify-self: flex-end;
+  margin-right: 10%;
+  background: none;
+  padding: 12px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(80, 83, 85);
+  font-size: 15px;
+  color: rgb(20, 58, 131);
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.add-customer-button:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.customer-dialog {
+  background-color: rgb(211, 199, 209);
+}
+
+.customer-dialog {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  max-width: 500px;
+  position: absolute;
+  top: 20%;
+  gap: 20px;
+}
+.customer-dialog form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.customer-dialo input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-label {
+  display: flex;
+  justify-content: space-between;
+  input {
+    width: 60%;
+    border: none;
+
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 0.5px;
+  }
+}
+
+.create-button {
+  border: none;
+  background-color: rgb(20, 58, 131);
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.mui-table {
+  margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.mui-table th, .mui-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.mui-table th {
+  background: #f5f5f5;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.05em;
+}
+
+.mui-table tr:hover {
+  background: #f0f7ff;
+}
+
+.mui-table td {
+  color: #555;
+}
+
+.mui-table tr:last-child td {
+  border-bottom: none;
+}

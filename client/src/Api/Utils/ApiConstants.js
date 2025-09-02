@@ -1,5 +1,5 @@
 
-export const baseUrl = 'https://9002-firebase-contact-management-1756616899481.cluster-bqwaigqtxbeautecnatk4o6ynk.cloudworkstations.dev/'
+export const baseUrl = 'http://localhost:3001/'
 export const apiMethods = {
     get:'GET',
     post:'POST',
@@ -10,5 +10,6 @@ export const apiMethods = {
 
 
 export const apiUrlConstants = {
-    getCustomers: '/customers'
+    getCustomers: '/customers',
+    saveCustomer: '/saveCustomer'
 }
